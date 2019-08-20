@@ -13,15 +13,19 @@
   --color-grey-dark-3: #999;
 
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .06);
+
+  --line: 1px solid var(--color-grey-light-2);
 }
 
-*
+*,
 *::before,
 *::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
 }
+
 
 html {
 	box-sizing: border-box;
